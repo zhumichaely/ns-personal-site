@@ -1,0 +1,25 @@
+{
+  "name": "ns-personal-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Michael Zhu non-static website",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhumichaely/ns-personal-site.git"
+  },
+  "author": "Michael Zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhumichaely/ns-personal-site/issues"
+  },
+  "homepage": "https://github.com/zhumichaely/ns-personal-site#readme"
+}
