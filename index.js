@@ -9,20 +9,19 @@ app.use(
   session({
     secret: crypto.randomBytes(64).toString("hex"),
     resave: true,
-    saveUninitialized: true,
+    saveUninitialized: false,
   })
 );
 
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
- if (req.session.visited) {
+  if (req.session.visited) {
     res.sendFile(`${__dirname}/index-revisit.html`);
- }
- else {
+  } else {
     req.session.visited = true;
     res.sendFile(`${__dirname}/index.html`);
- }
+  }
 });
 
 app.listen(port, () => {

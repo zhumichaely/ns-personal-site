@@ -97,7 +97,7 @@ Thumbs.db
 *.key
 *.pem
 
-images/
+# images/
 
 # -------------------------
 # BEGIN Whitelisted Files
