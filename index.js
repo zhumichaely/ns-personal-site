@@ -13,7 +13,7 @@ app.use(
   })
 );
 
-app.use(express.static("public", { maxage: "1d" }));
+app.use(express.static("public", { maxage: "1y" }));
 
 app.get("/", (req, res) => {
   if (req.session.visited) {
