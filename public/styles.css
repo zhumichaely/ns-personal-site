@@ -115,6 +115,14 @@ h1 {
   height: auto;
 }
 
+#mobileblurb {
+  display: none;
+}
+
+#desktopblurb {
+  display: block;
+}
+
 @media only screen and (max-width: 800px) {
   #sidebar {
     display: none;
@@ -129,6 +137,12 @@ h1 {
 }
 
 @media only screen and (max-device-width: 1000px) {
+  #desktopblurb {
+    display: none;
+  }
+  #mobileblurb {
+    display: block;
+  }
   #sidebar {
     /* display: none; */
     width: 40%;
