@@ -1,3 +1,1 @@
-To view, visit [this link](https://zhumichael.com/)
-
-There isn't any functionality yet, just me messing around with colors
+For information on my website, you can look through its commit history or simply [visit it](https://zhumichael.com)!
