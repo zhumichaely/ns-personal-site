@@ -82,12 +82,140 @@
       <div id="projects" class="section">
         <h3>My Projects</h3>
         <p>
-          All my projects can also be found on my GitHub. They each have a
-          readme, so I figured I'd share things I learned while building them
-          here, rather than reciting what can already be found there.
+          All my projects can be found on my GitHub. They each have a readme, so
+          I figured I'd share things I learned while building them here, rather
+          than reciting what can already be found there.
         </p>
         <p>
-          TODO projects go here lul
+          I'll list them in chronological order, since that makes the most sense
+          for a progression.
+        </p>
+        <p>
+          <b>CollegeCheque</b>
+        </p>
+        <p>
+          In my first hackathon, I used version control, the Unix command line,
+          and Python for the first time. As a result of my greenness, I had the
+          least responsibility of my team members and was allowed to spend a lot
+          of the time learning from them, namely on how to use those three
+          aforementioned tools. I also got to sleep, which was nice.
+        </p>
+        <p>
+          While I learned many technical details, and enjoyed spending the day
+          being educated and receiving rewards based on the merit of my other
+          team members, I consider the realization that I was missing out on a
+          limitless source of information to be the most valuable. Being aware
+          that the people around me are more than willing to share their
+          knowledge on various technologies will be useful forever. Though I
+          treated this hackathon solely as a learning experience, in the future
+          I won't have to if I leverage my resources. I'm excited to become a
+          more valuable contributor in my next team.
+        </p>
+        <p>
+          <b>Simon</b>
+        </p>
+        <p>
+          In my Fundamentals of Engineering course our last assignment consisted
+          of making a game adaptation of our choice for the Proteus, an in-house
+          microcontroller with a touchscreen. My partner and I tried to pick a
+          game that would be relatively simple and lend itself well to
+          touchscreen. While I still would rather have done Cookie Clicker,
+          Simon certainly wasn't a poor choice.
+        </p>
+        <p>
+          If you're unfamiliar with Simon, you can read about it
+          <a href="https://en.wikipedia.org/wiki/Simon_(game)">here</a>.
+        </p>
+        <p>
+          Although the game might be simple to play, it was less simple to
+          implement than we anticipated. The Proteus library is written in C++,
+          and by the end our project had gotten quite verbose. The goal was to
+          make the code as modular as possible, which I assumed meant separating
+          literally every task into its own method.
+        </p>
+        <p>
+          We ended up with the shortest main method after Hello World. Looking
+          over the code now, it isn't as bad as I remembered, as I believe most
+          of the methods are called multiple times, but making everything a
+          function didn't make maintenence that much easier, which was the real
+          goal. If I were to redo the project, I'd keep that in mind. I'd also
+          make Cookie Clicker instead.
+        </p>
+        <p>
+          <b>CSE 2231</b>
+        </p>
+        <p>
+          During Spring 2020, all of our courses transitioned online. It was a
+          pretty smooth process for me, since I was lucky enough to have
+          instructors that genuinely cared about maintaining the quality of
+          their course through the end of the semester.
+        </p>
+        <p>
+          That said, in Software Development and Design part of the burden
+          associated with transitioning was placed on the students, as we did
+          pair programming in lab and completed a partner project about every
+          week. Our projects consisted mostly of implementing various data
+          structures in Java, and we were to use version control.
+        </p>
+        <p>
+          While we had in-person instruction, this wasn't consequential for me
+          or my partner since we always did our assignments together, so we'd be
+          able to show each other our work without too much trouble. When we had
+          to work together remotely, however, properly syncing our code became
+          non-trivial.
+        </p>
+        <p>
+          We'd stored all our projects in a Subversion repository that was
+          hosted on the department's server. When we left campus, if we wanted
+          to access the repository we would have had to connect with remote
+          desktop. We elected instead to create a new one on GitHub and work out
+          of there. Note that at this point I'd been exposed to Git exactly
+          once, and I hadn't been involved at all in the initialization of the
+          repository I contributed to.
+        </p>
+        <p>
+          When I attempted to create our workspace I didn't include a gitignore
+          at all, and it turns out Eclipse has a lot of files that only apply to
+          the machine it's running on. During our first remote project my
+          partner and I spent too much time to admit writing over the other's
+          work. Every time one of us pulled, the paths to all the necessary
+          files on our machine got replaced with the path on their machine.
+          Eventually and thankfully, we realized the solution wasn't to recommit
+          everything, and learned about the superpower of choosing which files
+          to track. If not for that, we'd still be working now.
+        </p>
+        <p>
+          <b>Reddit Bots</b>
+        </p>
+        <p>
+          I'm currently working on a number of Reddit bots that will parse self
+          posts and comments. The repositories are currently privated, but I can
+          still share some things I've improved on.
+        </p>
+        <p>
+          Most of the function in bots is searching for certain words or words
+          that match some criteria. I elected to use regular expressions a lot
+          since they're concise and generally easy for someone unfamiliar with
+          the code to interpret.
+        </p>
+        <p>
+          The main problem I face is people using characters I don't anticipate.
+          On many occasions a user has typed fancy apostrophes or quotes instead
+          of their regular counterparts when I'm looking for words inside
+          punctuation, used an accented letter when I'm looking for words that
+          contain its plain version, or included non-Latin characters. I write
+          everything in JavaScript, which doesn't really have a great regex
+          engine, so that's the excuse I'll run with.
+        </p>
+        <p>
+          To better process Reddit content in the future, I'll consider that
+          everyone may not speak the same language or use the same devices. More
+          importantly, I'll use Python instead.
+        </p>
+        <p>
+          As of now, this is all I'm working on. Hopefully at one point you can
+          revisit this website and I'll have improved it somehow. However, for
+          the time being, this is it. Thanks for reading!
         </p>
       </div>
     </div>
